@@ -6,27 +6,23 @@ console.log(grade)
 
 
   
-  if   (grade>=90 && grade<=100) {   
-    console.log ("لقد حصلت على امتياز")
-  }
-
-  if (grade>=80 && grade<=89) {
+  if   (grade>=90 ){   
+    console.log ("لقد حصلت على امتياز");
+  }    
+    else if (grade>=80 ) {
     
-        cpnsole.log ( "لقد حصلت على جيد جدا")
+        console.log ( "لقد حصلت على جيد جدا");
    
+  }      else if (grade>=70  ) {
+    console.log("لقد حصلت على جيد🙂");
   }
 
-  if (grade>=70 && grade<=79 ) {
-    console.log("لقد حصلت على جيد🙂")
+        else if (grade>=60 ) {
+    console.log ( "لقد حصلت على مقبول😕");
   }
-
-  if (grade>=60 && grade<=69) {
-    console.log ( "لقد حصلت على مقبول😕")
-  }
-  if (grade>=50 && grade<=59) {
-    console.log( "لقد حصلت على ضعيف☹️")
-  }
-
-  if (grade<50) {
-    console.log (   "راسب💔")
+           else if (grade>=50 ) {
+    console.log( "لقد حصلت على ضعيف☹️");
+  }   
+     else  {
+    console.log (   "راسب💔");
   }
